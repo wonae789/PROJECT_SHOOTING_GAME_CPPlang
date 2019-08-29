@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\완성본">
+      <UniqueIdentifier>{26a73226-20ce-43ef-af2c-844a74c5b50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완성본\Header">
+      <UniqueIdentifier>{7496a93b-17a3-4a60-a709-f410bad5a672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완성본\Source">
+      <UniqueIdentifier>{ae171259-7d5a-4896-af6b-2ba10acc84bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ver2 제작">
+      <UniqueIdentifier>{78c1dab4-03ad-4eb0-953e-87fe0c9c9489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ver2 제작\Header">
+      <UniqueIdentifier>{7789305d-48e9-473c-9036-b458f0a968d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ver2 제작\Source">
+      <UniqueIdentifier>{7ecdd164-a8e8-444d-8189-e50bb9f82933}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="completion\cosmic.h">
+      <Filter>소스 파일\완성본\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="completion\enemy.h">
+      <Filter>소스 파일\완성본\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="completion\lib.h">
+      <Filter>소스 파일\완성본\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="completion\player.h">
+      <Filter>소스 파일\완성본\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Library.h">
+      <Filter>소스 파일\ver2 제작\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="players.h">
+      <Filter>소스 파일\ver2 제작\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ufo.h">
+      <Filter>소스 파일\ver2 제작\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="completion\cosmic.cpp">
+      <Filter>소스 파일\완성본\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="completion\enemy.cpp">
+      <Filter>소스 파일\완성본\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="completion\lib.cpp">
+      <Filter>소스 파일\완성본\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="completion\main.cpp">
+      <Filter>소스 파일\완성본\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="completion\player.cpp">
+      <Filter>소스 파일\완성본\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>소스 파일\ver2 제작\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\ver2 제작\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="players.cpp">
+      <Filter>소스 파일\ver2 제작\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ufo.cpp">
+      <Filter>소스 파일\ver2 제작\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
