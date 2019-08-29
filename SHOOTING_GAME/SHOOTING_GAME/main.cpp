@@ -10,7 +10,7 @@ void BarricadeDraw(void)
 	gotoxy(0, 24);
 	printf("         ¢É¢Ë¢Ë¢Ê    ¢É¢Ë¢Ë¢Ê    ¢É¢Ë¢Ë¢Ê  \n");
 	printf("         ¢Ë¢Ë¢Ë¢Ë    ¢Ë¢Ë¢Ë¢Ë    ¢Ë¢Ë¢Ë¢Ë  \n");
-	printf("         ¢Ë    ¢Ë    ¢Ë    ¢Ë    ¢Ë    ¢Ë  \n");
+	printf("         ¢Ë    ¢Ë    ¢Ë    ¢Ë    ¢Ë    ¢Ë  \n"); 
 }
 
 void main()
